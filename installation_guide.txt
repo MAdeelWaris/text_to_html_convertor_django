@@ -1,0 +1,25 @@
+Steps:
+
+1- (Optional) First create Virtual Envoirment
+    "python -m venv .venv"
+    then activate this Envoirment by 
+    ".venv\Scripts\activate"
+
+2- install dependencies/requirement
+    "pip install -r requirements.txt"
+
+3- when you have installed django-ckeditor, then run command "python manage.py collectstatic"
+
+4- After Installing requiremnts, you are good to go
+    By default it used SQLITE3 you can change it in settings.py file
+
+5- It will create "database.sqlite3" file in your directory, this is your database file
+
+6- Type following command to run server everytime you want to run this project
+    "python manage.py runserver"
+
+
+    
+
+
+
